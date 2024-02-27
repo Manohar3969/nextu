@@ -4,14 +4,11 @@ import { Buttons } from './Components/Buttons';
 import { ErrorMessage } from './Components/ErrorMessage';
 import { Inputs } from './Components/InputText';
 import { InputDropDown } from './Components/InputDropDown';
+import { Headings } from './Components/Headings';
 
 function App() {
   return (
     <div className="App">
-      <Buttons></Buttons>
-      <ErrorMessage></ErrorMessage>
-      <Inputs></Inputs>
-      <InputDropDown></InputDropDown>
       
     </div>
   );
