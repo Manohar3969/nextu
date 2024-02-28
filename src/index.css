@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 
 body {
   margin: 0;
@@ -14,4 +17,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo-font{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.header-list{
+  font-family: Josefin Sans;
 }
