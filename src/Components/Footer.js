@@ -3,7 +3,7 @@ import { SocialMediaIcons } from './SocialMediaIcons'
 
 export const Footer = () => {
   return (
-    <div>
+    <div className='text-center'>
         <div className='w-full bg-black h-20'>
             <SocialMediaIcons iconName="fa fa-instagram hover:text-pink-500"></SocialMediaIcons>
             <SocialMediaIcons iconName="fa fa-facebook-official hover:text-blue-500"></SocialMediaIcons>
